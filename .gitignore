@@ -1,2 +1,5 @@
 *.js
 *.map
+API/.idea/
+API/node_modules/
+API/typings/
