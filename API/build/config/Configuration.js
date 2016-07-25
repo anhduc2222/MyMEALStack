@@ -42,3 +42,4 @@ var Configuration = (function () {
 }());
 Object.seal(Configuration);
 module.exports = Configuration;
+//# sourceMappingURL=Configuration.js.map

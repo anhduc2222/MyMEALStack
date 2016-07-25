@@ -5,4 +5,16 @@
 import "reflect-metadata";
 import {injectable} from "inversify";
 
+import SettingModel = require("../../../models/setting/SettingModel");
+import SettingSchema = require("../../../schemas/setting/SettingSchema");
 import RepositoryBase = require("../../../core/repositories/RepositoryBase");
+
+@injectable()
+class SettingRepository extends RepositoryBase<SettingModel> {
+    constructor() {
+        super(SettingSchema);
+    }
+}
+
+Object.seal(SettingRepository);
+export = SettingRepository;

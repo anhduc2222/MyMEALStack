@@ -16,3 +16,4 @@ var V1RouteRegistration = (function () {
     return V1RouteRegistration;
 }());
 module.exports = V1RouteRegistration;
+//# sourceMappingURL=v1.0.js.map

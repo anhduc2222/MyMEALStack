@@ -13,3 +13,4 @@ var PassportConfig = (function () {
 }());
 Object.seal(PassportConfig);
 module.exports = PassportConfig;
+//# sourceMappingURL=PassportConfiguration.js.map

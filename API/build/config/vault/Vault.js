@@ -57,3 +57,4 @@ var VaultConfiguration = (function () {
     return VaultConfiguration;
 }());
 module.exports = VaultConfiguration;
+//# sourceMappingURL=Vault.js.map

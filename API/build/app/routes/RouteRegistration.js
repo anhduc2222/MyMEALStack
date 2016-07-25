@@ -33,3 +33,4 @@ var RouteRegistration = (function () {
     return RouteRegistration;
 }());
 module.exports = RouteRegistration;
+//# sourceMappingURL=RouteRegistration.js.map

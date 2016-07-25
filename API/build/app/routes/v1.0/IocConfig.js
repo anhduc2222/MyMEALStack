@@ -15,3 +15,4 @@ var IocConfig = (function () {
 }());
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = IocConfig.init();
+//# sourceMappingURL=IocConfig.js.map
