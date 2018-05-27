@@ -1,0 +1,37 @@
+0 silly input [ 'start' ]
+1 silly flags { _: [ 'run' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   stream: true,
+1 silly flags   scope: 'server',
+1 silly flags   script: 'start',
+1 silly flags   args: [] }
+2 verbose rootPath C:\vaduc\project\01-RD\03-react-native\03-apollo-universal-starter-kit
+3 info version 2.11.0
+4 silly existsSync C:\vaduc\project\01-RD\03-react-native\03-apollo-universal-starter-kit\VERSION
+5 info versioning independent
+6 info scope server
+7 silly initialize attempt
+8 silly initialize success
+9 silly execute attempt
+10 silly runScriptInPackageStreaming [ 'start', [], 'server' ]
+11 silly getExecOpts { cwd: 'C:\\vaduc\\project\\01-RD\\03-react-native\\03-apollo-universal-starter-kit\\packages\\server' }
+12 error execute callback with error
+13 error Error: Command failed: yarn run start
+13 error module.js:473
+13 error       throw err;
+13 error       ^
+13 error
+13 error Error: Cannot find module 'C:\vaduc\project\01-RD\03-react-native\03-apollo-universal-starter-kit\packages\server\build'
+13 error     at Function.Module._resolveFilename (module.js:527:15)
+13 error     at Function.Module._load (module.js:453:25)
+13 error     at Function.Module.runMain (module.js:665:10)
+13 error     at startup (bootstrap_node.js:187:16)
+13 error     at bootstrap_node.js:608:3
+13 error error Command failed with exit code 1.
+13 error
+13 error $ node --harmony build
+13 error info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+13 error
+13 error     at Promise.all.then.arr (C:\vaduc\project\01-RD\03-react-native\03-apollo-universal-starter-kit\node_modules\execa\index.js:236:11)
+13 error     at <anonymous>
